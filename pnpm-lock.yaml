@@ -6,6 +6,7 @@ dependencies:
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
 devDependencies:
+  baseline-browser-mapping: 2.9.19
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0
   eslint-plugin-prettier: 3.3.1_a5f306c245f9405bc973aa159985476e
@@ -4657,6 +4658,11 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-aTUKW4ptQhS64+v2d6IkPzymEzzhw+G0bA1g3uBRV3+ntkH+svttKseW5IOR4Ed6NUVKqnY7qT3dKvzQ7io4AA==
+  /baseline-browser-mapping/2.9.19:
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-ipDqC8FrAl/76p2SSWKSI+H9tFwm7vYqXQrItCuiVPt26Km0jS+NzSsBWAaBusvSbQcfJG+JitdMm+wZAgTYqg==
   /batch/0.6.1:
     dev: true
     resolution:
@@ -15120,6 +15126,7 @@ specifiers:
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5
   '@testing-library/user-event': 12.6.2
+  baseline-browser-mapping: 2.9.19
   chalk: 4.1.0
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0

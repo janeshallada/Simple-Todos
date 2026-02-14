@@ -1,23 +1,26 @@
-/* Write your CSS here */
 .todo-item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 12px;
 }
 
-.todo-title {
-  color: #000000;
+.todo-text {
   font-size: 16px;
+  margin: 0 12px;
 }
 
-.delete-button {
-  background-color: #ff0b37;
-  color: #ffffff;
-  border: none;
-  border-radius: 8px;
-  padding: 6px 14px;
-  font-size: 14px;
-  cursor: pointer;
-  outline: none;
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-input {
+  font-size: 16px;
+  padding: 4px;
 }
